@@ -208,3 +208,46 @@
     font-size: 25px;
     text-align: center;
 }
+.contactForm{
+    border: 2px solid black;
+    display: block;
+    height: 50%;
+    width: 30%;
+    margin-left: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+.contactForm h3{
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+}
+.formbox div input{
+    height: 33%;
+    width: 90%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 25px;
+   
+}
+.underformbox{
+    display: block;
+    margin: auto;
+}
+.underformbox div{
+    padding: 10px 10px;
+}
+.underformbox{
+    justify-content: center;
+    align-items: center;
+    padding: 20% 20%;
+}
+.underformbox input {
+text-align: center;
+}
+.formbox div input :nth-child(4){
+    padding: 400px 400px;
+}
