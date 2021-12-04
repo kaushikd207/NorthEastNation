@@ -3,6 +3,9 @@
       margin: 0;
       padding: 0;
   }
+  .mainImg img{
+    box-shadow: 5px 5px 5px 7;
+  }
   
   html{
       scroll-behavior: smooth;
