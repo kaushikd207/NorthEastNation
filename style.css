@@ -149,6 +149,7 @@
 #services{
       margin: 34px;
       display: flex;
+      flex-direction: column;
       background-color: #553b3b;
   }
   #services .box{ 
