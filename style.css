@@ -170,6 +170,9 @@
       border-radius: 5px;
       box-shadow: 5px 10px #333232;
   }
+  .servicebox-text{
+      text-align: center;
+  }
   .serviceBox img{
       width: 318px;
       height: 200px;
