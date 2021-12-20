@@ -151,11 +151,11 @@
   /* Services Section */
 .services{
       display: flex;
-      border: solid blue;
       flex-direction: row;
-      height:400px;
+      height: 400px;
       width: 98%;
-      background-color: #553b3b;
+      flex-wrap: wrap;
+      background-color: #8a8484;
       align-items: center;
       justify-content: center;
       margin: auto;
@@ -166,11 +166,16 @@
       width: 318px;
       align-content: space-around;
       align-items: center;
-      border: solid red;
+      border: solid rgb(252, 252, 252);
+      border-radius: 5px;
+      box-shadow: 5px 10px #333232;
   }
   .serviceBox img{
       width: 318px;
       height: 200px;
+  }
+  #services-container h1{
+      text-align: center;
   }
   /* #services .box{ 
       margin: 2px 55px;
