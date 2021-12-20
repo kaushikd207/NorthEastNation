@@ -153,20 +153,24 @@
       display: flex;
       border: solid blue;
       flex-direction: row;
-      height:300px;
+      height:400px;
       width: 98%;
       background-color: #553b3b;
       align-items: center;
-      align-content: space-around;
       justify-content: center;
-      margin-left: 1%;
-      margin-right: 1%;
+      margin: auto;
   }
   .serviceBox{
-      height: 30%;
-      width: 30%;
+      height: 318px;
+     margin: 10px;
+      width: 318px;
+      align-content: space-around;
       align-items: center;
       border: solid red;
+  }
+  .serviceBox img{
+      width: 318px;
+      height: 200px;
   }
   /* #services .box{ 
       margin: 2px 55px;
